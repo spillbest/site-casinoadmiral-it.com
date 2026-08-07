@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casino Online AdmiralBet — slot, casinò live e giochi con licenza ADM</title>
+<link rel="canonical" href="https://casinoadmiral-it.com/it-it/">
+<link rel="alternate" hreflang="it-it" href="https://casinoadmiral-it.com/it-it/">
+<link rel="alternate" hreflang="x-default" href="https://casinoadmiral-it.com/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="description" content="Casino online AdmiralBet (concessione ADM n. 16048): oltre 4.000 slot, roulette, blackjack e casinò live. Bonus di benvenuto fino a 5.000€ e bonus senza deposito con SPID.">
+<!-- IMG: immagini reali scaricate dai CDN AdmiralBet (gt-cdn banner, cdn-static slot) in assets/ -->
+<!-- AFFILIATE: i CTA (AFF) sono disattivati ("#"). Inserisci il link reale nella const AFF. -->
+<style>
+:root{
+  --bg:#0a1c3e; --top:#103a7a; --nav:#03102b; --card:#102a57; --card2:#0c2148;
+  --yellow:#ffc20e; --yellow-d:#e8ad00; --ink:#fff; --mut:#9fb2d6; --line:#1c3666; --r:10px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.55;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+.wrap{max-width:1360px;margin:0 auto;padding:0 18px}
+
+/* HEADER */
+.top{background:linear-gradient(180deg,#13458c,#0e3168);}
+.top-in{display:flex;align-items:center;gap:18px;padding:12px 18px;max-width:1360px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:6px;font-weight:900;font-size:26px;letter-spacing:1px}
+.logo .b{background:var(--yellow);color:#0a1c3e;padding:0 7px;border-radius:5px}
+.btn{padding:11px 26px;border-radius:7px;font-weight:800;font-size:14px;white-space:nowrap;cursor:pointer;border:0}
+.btn-ghost{background:transparent;border:2px solid var(--yellow);color:var(--yellow)}
+.btn-acc{background:var(--yellow);color:#0a1c3e}
+.btn-acc:hover{background:var(--yellow-d)}
+
+/* NAV */
+.nav{background:var(--nav);border-top:2px solid var(--yellow)}
+.nav-in{display:flex;align-items:stretch;gap:2px;max-width:1360px;margin:0 auto;padding:0 8px;overflow-x:auto;scrollbar-width:none}
+.nav-in::-webkit-scrollbar{display:none}
+.nav-item{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:11px 16px;min-width:74px;color:#cdd8ee;font-size:12px;font-weight:600;white-space:nowrap;border-bottom:3px solid transparent}
+.nav-item img{width:24px;height:24px;opacity:.85;filter:brightness(0) invert(1)}
+.nav-item:hover{color:#fff;background:#0a1a3a}
+.nav-item.on{color:var(--yellow);border-bottom-color:var(--yellow)}
+.nav-item.on img{opacity:1}
+.nav-bonus{position:relative}
+.nav-bonus img{filter:none;opacity:1}
+.nav-bonus .bdg{position:absolute;top:5px;right:10px;background:var(--yellow);color:#0a1c3e;font-size:10px;font-weight:800;border-radius:9px;padding:0 5px;min-width:17px;text-align:center}
+.nav-right{margin-left:auto;display:flex}
+
+/* BANNER */
+.banner{display:block;max-width:1360px;margin:16px auto 0;padding:0 18px}
+.banner a{display:block;border-radius:14px;overflow:hidden;box-shadow:0 8px 22px rgba(0,0,0,.35)}
+.banner img{width:100%;height:auto}
+
+/* INTRO */
+.intro{max-width:1360px;margin:22px auto 0;padding:0 18px}
+.intro h1{font-size:25px;font-weight:800;line-height:1.25}
+.intro p{color:var(--mut);margin-top:9px}
+
+/* SECTION */
+.sec{max-width:1360px;margin:26px auto 0;padding:0 18px}
+.sec-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.sec-h h2{font-size:19px;font-weight:800}
+.sec-h a{color:var(--yellow);font-weight:700;font-size:13px}
+
+/* MOSAIC (Casino Online) */
+.mscroll{overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+.mscroll::-webkit-scrollbar{display:none}
+.mosaic{display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:repeat(2,1fr);gap:14px;width:100%;min-width:760px;aspect-ratio:3/1}
+.tile{position:relative;border-radius:var(--r);overflow:hidden;background:var(--card);cursor:pointer}
+.tile img,.tile object{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+.tile .ph{width:100%;height:100%;display:grid;place-items:center;text-align:center;font-size:11px;font-weight:700;color:#cfd8ee;padding:6px;background:linear-gradient(150deg,#16356b,#0e2350)}
+.tile .bd{position:absolute;top:6px;left:6px;height:22px;width:auto;pointer-events:none}
+.tile .jp{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.8));color:var(--yellow);font-size:11px;font-weight:800;text-align:center;padding:10px 2px 4px}
+.tile .ov{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:rgba(6,16,38,.78);opacity:0;transition:.15s;padding:8px;text-align:center}
+.tile:hover .ov{opacity:1}
+.tile .ov b{font-size:12px;font-weight:700}
+.tile .ov .play{background:var(--yellow);color:#0a1c3e;font-weight:800;font-size:12px;padding:7px 16px;border-radius:6px}
+
+/* uniform game grid (best-of / live) */
+.ggrid{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.ggrid .tile{aspect-ratio:1}
+
+/* SEO */
+.seo{max-width:1120px;margin:36px auto 0;padding:0 18px 10px;color:#d7e0f2}
+.seo h1{font-size:23px;font-weight:800;margin:18px 0 10px;color:#fff}
+.seo h2{font-size:20px;font-weight:800;margin:24px 0 10px;color:var(--yellow)}
+.seo h3{font-size:17px;font-weight:700;margin:18px 0 8px;color:#fff}
+.seo h4{font-size:15px;font-weight:700;margin:14px 0 6px;color:#cfe0ff}
+.seo p{margin:9px 0;color:#c4d2ec}
+.seo a{color:var(--yellow)}
+.seo ul{margin:8px 0 8px 22px}
+.seo li{margin:4px 0;color:#c4d2ec}
+.seo table{border-collapse:collapse;min-width:680px;margin:6px 0 4px;font-size:13px}
+.seo .tablewrap{overflow-x:auto}
+.seo th,.seo td{border:1px solid #284a86;padding:8px 10px;text-align:left}
+.seo thead td{background:#02173f;color:#fff;font-weight:800;text-transform:uppercase}
+.seo tbody tr:nth-child(odd){background:#0c2350}
+.seo tbody tr:nth-child(even){background:#0a1d40}
+
+/* FOOTER */
+footer{background:#02112e;margin-top:36px;color:#8ea3c8;font-size:13px}
+footer .fin{max-width:1360px;margin:0 auto;padding:22px 18px;display:flex;gap:12px;align-items:flex-start;line-height:1.6}
+.age{background:#c62828;color:#fff;font-weight:800;border-radius:6px;padding:3px 9px;flex:none}
+footer .low{border-top:1px solid #142a52;text-align:center;padding:12px;color:#6f86ad}
+
+@media(max-width:760px){
+  .ggrid{grid-template-columns:repeat(4,1fr)}
+  .banner,.intro,.sec{padding-left:14px;padding-right:14px}
+}
+@media(max-width:520px){
+  .ggrid{grid-template-columns:repeat(3,1fr)}
+  .logo{font-size:21px}
+  .btn{padding:10px 16px}
+  .btn-ghost{display:none}
+}
+</style>
+<style>
+.contentArea{background:#fff}
+.subTop{background:#10193f;padding-bottom:18px}
+.crumbs{font-size:12px;color:#aab3d6;padding:14px 20px 0;max-width:1200px;margin:0 auto}.crumbs a{color:#cdd2ff}.crumbs b{color:#fff}
+.subHero{max-width:1200px;margin:0 auto;padding:12px 20px 4px}
+.subHero h1{color:#fff;font-size:30px;font-weight:800;line-height:1.2}
+.clusterNav{background:#fff;border-bottom:1px solid #e4e7f2;position:sticky;top:0;z-index:20}
+.clusterNavIn{max-width:1200px;margin:0 auto;display:flex;gap:6px 22px;flex-wrap:wrap;padding:13px 20px;font-size:14px}
+.clusterNav a{color:#6b7299;font-weight:700;text-decoration:none}.clusterNav a.on{color:#1a2a6c}
+.amain{max-width:880px;margin:0 auto;padding:26px 20px 10px}
+.article h2{font-size:22px;margin:26px 0 10px;color:#1a2250}.article h3{font-size:17px;margin:18px 0 8px}
+.article p{color:#33384e;margin-bottom:13px}.article ul{margin:0 0 14px 20px}.article li{margin-bottom:6px;color:#33384e}
+.article a{color:#1a2a6c;font-weight:600}
+.article .tbl{overflow-x:auto;margin:0 0 16px}.article table{width:100%;border-collapse:collapse;font-size:14px}
+.article th,.article td{border:1px solid #e4e7f2;padding:9px 12px;text-align:left}.article th{background:#f4f5fa;font-weight:700;color:#1a2250}
+.article .faq{border:1px solid #e4e7f2;border-radius:10px;padding:12px 16px;margin-bottom:10px}
+.article .faq summary{font-weight:700;cursor:pointer}.article .faq p{margin:8px 0 0}
+.ctaBox{background:linear-gradient(120deg,#1a2a6c,#2740a8);color:#fff;border-radius:14px;padding:20px 24px;margin:22px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.ctaBox b{color:#ffd23f}.ctaBox a{background:#ffd23f;color:#1a2250;border-radius:999px;padding:11px 22px;font-weight:800;text-decoration:none}
+.clusterFoot{max-width:880px;margin:0 auto;display:flex;gap:8px 18px;flex-wrap:wrap;padding:18px 20px;border-top:1px solid #e4e7f2;font-size:13px}
+.clusterFoot a{color:#1a2a6c;font-weight:600;text-decoration:none}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="top">
+  <div class="top-in">
+    <a class="logo" href="/">ADMIRAL<span class="b">BET</span></a>
+    <span style="flex:1"></span>
+    <a class="btn btn-ghost" data-aff href="/referral-link">ACCEDI</a>
+    <a class="btn btn-acc" data-aff href="/referral-link">REGISTRATI</a>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-in" id="nav"></div>
+</nav>
+
+<!-- BANNER (singolo, senza slider) -->
+<div class="banner">
+  <a data-aff href="/referral-link"><img src="/assets/banner/slider_spid_2000e_1000fs.jpg" alt="Bonus Slot senza deposito — 2.000€ + 1.000 free spin con SPID"></a>
+</div>
+
+<!-- H1 + LEAD -->
+<div class="intro">
+  <h1>Casino online AdmiralBet: slot, casinò live e giochi con licenza ADM</h1>
+  <p>AdmiralBet è un casino online legale in Italia (concessione ADM n. 16048), parte del gruppo Novomatic/Greentube. Oltre 4.000 titoli tra slot, roulette, blackjack e tavoli live con croupier reali, più un bonus di benvenuto fino a 5.000€ e un bonus senza deposito con registrazione SPID. Ecco i giochi più caldi del momento.</p>
+</div>
+
+<!-- CASINO ONLINE (mosaico) -->
+<section class="sec">
+  <div class="sec-h"><h2>Casino Online</h2><a data-aff href="/referral-link">Vedi tutti ›</a></div>
+  <div class="mscroll"><div class="mosaic" id="m-casino"></div></div>
+</section>
+
+<!-- BEST OF GAMES GLOBAL -->
+<section class="sec">
+  <div class="sec-h"><h2>Best of Games Global</h2><a data-aff href="/referral-link">Vedi tutti ›</a></div>
+  <div class="ggrid" id="g-best"></div>
+</section>
+
+<!-- CASINO LIVE -->
+<section class="sec">
+  <div class="sec-h"><h2>Casinò Live</h2><a data-aff href="/referral-link">Vedi tutti ›</a></div>
+  <div class="ggrid" id="g-live"></div>
+</section>
+
+<!-- SEO -->
+<article class="seo" id="seo"><div class="amain"><div class="article"><h2>Cos&#x27;è AdmiralBet?</h2>
+<p>AdmiralBet è uno dei bookmaker e casinò online più solidi del mercato italiano. È il marchio online di Admiral Sport Srl, attivo in Italia dal 2012, e fa parte del gruppo Greentube, a sua volta dentro Novomatic Italia: lo stesso colosso che gestisce le sale Admiral Club e le agenzie di scommesse Yes Admiral Sport sul territorio. Detto in breve: non è un nome qualunque spuntato dal nulla, ma la versione online di un marchio radicato nel gioco italiano.</p>
+<p>La cosa che conta di più, e la mettiamo subito in chiaro, è la licenza. AdmiralBet opera con concessione <b>ADM n° 16048</b> per il gioco online: è un operatore regolamentato in Italia a tutti gli effetti, con tutte le tutele che ne derivano.</p>
+<h2>Admiral: bet, hotel o assicurazioni? Chiariamo</h2>
+<p>Una nota utile, perché «admiral» è una parola usata da mezzo mondo. Cercando Admiral su Google trovi anche hotel (a Sorrento, Riccione, Milano), compagnie di assicurazioni, gli orologi Longines Admiral, persino un broker finanziario. Niente di tutto questo c&#x27;entra con noi. Qui parliamo solo di <b>AdmiralBet</b>, il sito di scommesse e casinò del gruppo Novomatic. Se cercavi una polizza o una camera d&#x27;albergo, sei sulla pagina sbagliata.</p>
+<h2>AdmiralBet in breve</h2>
+<div class="tbl"><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Tipo</td><td>Bookmaker + casino online</td></tr><tr><td>Licenza</td><td>ADM n° 16048 (concessionario regolamentato in Italia)</td></tr><tr><td>Gruppo</td><td>Admiral Sport Srl · Greentube · Novomatic Italia</td></tr><tr><td>Online dal</td><td>2012 (ex marchio: Admiral Yes)</td></tr><tr><td>Giochi</td><td>Oltre 4000: slot, tavolo, live (Evolution, Pragmatic, Playtech)</td></tr><tr><td>Slot gratis</td><td>Sì, in modalità demo (anche Book of Ra)</td></tr><tr><td>Registrazione</td><td>Anche con SPID, verifica KYC</td></tr><tr><td>App</td><td>Android e iPhone</td></tr><tr><td>Lingua e valuta</td><td>Italiano, euro (€)</td></tr></tbody></table></div>
+<h2>Scommesse sportive</h2>
+<p>Sul fronte sportivo AdmiralBet offre un palinsesto completo, con il calcio in primo piano (Serie A e campionati esteri) accanto a tennis, basket e gli altri sport principali. Puoi giocare la singola, la multipla o il sistema, e c&#x27;è la sezione live con le quote che si aggiornano durante le partite. I dettagli nella pagina <a href="/referral-link">scommesse</a>.</p>
+<h2>Casino e slot</h2>
+<p>Qui si vede la mano di Novomatic. Il casinò supera i 4000 titoli tra slot, giochi da tavolo e una sezione live con circa 300 tavoli e croupier in diretta, firmati da provider come Evolution e Pragmatic Play. E poi ci sono le slot: trovi i grandi classici Novomatic, Book of Ra in testa, che puoi anche provare gratis in modalità demo prima di giocare con soldi veri. Le pagine <a href="/referral-link">casino</a> e <a href="/referral-link">slot</a> entrano nel dettaglio.</p>
+<h2>AdmiralBet è affidabile? La licenza ADM</h2>
+<p>Sì, e qui la risposta è netta. AdmiralBet è un concessionario ADM (licenza n° 16048): conto gioco protetto, strumenti di gioco responsabile attivi e controlli reali sull&#x27;operatore. Aggiungi che dietro c&#x27;è Novomatic, uno dei nomi più grandi del settore a livello mondiale, e il quadro di affidabilità è solido. Il sito usa connessione cifrata e, come impone la legge, chiede la verifica dei documenti prima del primo prelievo. È la differenza sostanziale rispetto ai casinò non AAMS: qui giochi su una piattaforma autorizzata in Italia. La valutazione completa è nelle <a href="/referral-link">recensioni</a>.</p>
+<h2>App e accesso</h2>
+<p>AdmiralBet ha l&#x27;app per giocare da smartphone, per Android e iPhone, oltre al sito mobile. L&#x27;accesso al conto è rapido con email e password, e la registrazione si può fare anche con SPID, che velocizza la verifica. I dettagli nelle pagine <a href="/referral-link">app</a> e <a href="/referral-link">accesso</a>.</p>
+<h2>Admiral Yes, 24h e SlotYes</h2>
+<p>Se hai incrociato i nomi Admiral Yes, Admiral 24h o SlotYes e ti sei confuso, è normale: sono tutti legati allo stesso gruppo. Admiral Yes era il vecchio nome di AdmiralBet, mentre SlotYes è il marchio slot della famiglia Admiral. Abbiamo dedicato una pagina a chiarire chi è chi: <a href="/referral-link">Admiral Yes / 24h / SlotYes</a>.</p>
+<h2>Slot gratis e demo</h2>
+<p>Una cosa che vale la pena sapere prima di iniziare: su AdmiralBet molte slot si possono provare gratis, in modalità demo. Non è un bonus senza deposito, ma una prova con crediti finti, utile per capire come gira un titolo prima di metterci dei soldi veri. Per chi viene dalle sale fisiche e vuole ritrovare online le slot Novomatic, è il modo più semplice per orientarsi nel catalogo. Tutti i dettagli nella pagina <a href="/referral-link">slot</a>.</p>
+<h2>Vantaggi e svantaggi</h2>
+<p>Pro:</p>
+<ul><li>Licenza ADM (n° 16048), operatore regolamentato in Italia</li><li>Gruppo Novomatic alle spalle, con le slot classiche (Book of Ra)</li><li>Oltre 4000 giochi e circa 300 tavoli live</li><li>Slot gratis in demo, registrazione con SPID, app Android e iPhone</li></ul>
+<p>Contro:</p>
+<ul><li>Marchio facile da confondere con hotel, assicurazioni e altri «Admiral»</li><li>Bonus regolamentato e contenuto, com&#x27;è tipico degli operatori ADM</li></ul>
+<h2>Domande frequenti</h2>
+<ul><li><b>Cos&#x27;è AdmiralBet?</b> — Il bookmaker e casinò online del gruppo Novomatic (Admiral Sport Srl), con licenza ADM n° 16048. Scommesse, oltre 4000 giochi e slot gratis in demo.</li><li><b>AdmiralBet ha la licenza ADM (AAMS)?</b> — Sì, concessione ADM n° 16048 per il gioco online, più le concessioni retail del gruppo.</li><li><b>Admiral è un hotel o un sito di scommesse?</b> — «Admiral» è anche hotel, assicurazioni e orologi. Qui parliamo di AdmiralBet, il sito di scommesse e casinò di Novomatic.</li><li><b>AdmiralBet ha le slot gratis?</b> — Sì, molte slot (tra cui Book of Ra) si possono provare gratis in modalità demo, senza deposito.</li></ul></div></div><div class="clusterFoot"><a href="/">Home</a><a href="/scommesse/">Scommesse</a><a href="/casino/">Casinò</a><a href="/slot/">Slot</a><a href="/accesso/">Accesso</a><a href="/app/">App</a><a href="/admiral-yes/">Admiral Yes</a><a href="/recensioni/">Recensioni</a></div></article>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fin">
+    <span class="age">18+</span>
+    <span>Il gioco è vietato ai minori di 18 anni e può causare dipendenza patologica. Gioca responsabilmente. AdmiralBet opera con concessione ADM (Agenzia delle Dogane e dei Monopoli) n. 16048. Probabilità di vincita su www.adm.gov.it. Sito informativo.</span>
+  </div>
+  <div class="low">© 2026 AdmiralBet · Gruppo Novomatic/Greentube · Gioca responsabilmente</div>
+</footer>
+
+<script>
+const AFF = '#'; // ⚠ inserisci il link affiliato reale
+const S = '/assets/slot/', B = '/assets/badge/';
+const BADGE = {promo:'badge_promo.svg', exclusive:'exclusive.it.svg', new:'badge_new.svg', hot:'badge_hot.svg'};
+
+const NAV = [
+  ['bonus','Bonus','b'],['ruota','Ruota'],['scommesse','Scommesse'],['slot','Slot'],
+  ['casino','Casinò'],['casinolive','Casinò Live'],['poker','Poker'],['bingo','Bingo'],['lotterie','Lotterie']
+];
+const NAVR = [['news','News'],['app','App']];
+
+// Casino Online — mosaico [nome, img, grid-area, badge, jackpot]
+const CASINO = [
+  ['Fire Blaze Oink Oink Oink','fire-blaze-oink-oink-oink-portrait.jpg','1 / 1 / 3 / 2'],
+  ['Book of Ra Deluxe','book-of-ra-deluxe1.svg','1 / 2 / 2 / 3','promo'],
+  ['Big Bass Vegas Double Down Deluxe','big-bass-vegas-double-down-deluxe-ico-mobile-bonus-drop.jpg','1 / 3 / 2 / 4'],
+  ['Legion Gold Reckoning','legion-gold-reckoning-landscape.jpg','1 / 4 / 2 / 6'],
+  ['3 Coin Volcanoes','3-coin-volcanoes-portrait.jpg','1 / 6 / 3 / 7'],
+  ['Shining Crown','shining-crown-landscape.jpg','2 / 2 / 3 / 4'],
+  ['Mining Pots of Gold Express Gold Blitz','mining-pots-of-gold-express-gold-blitz-ico-mobile.jpg','2 / 4 / 3 / 5','exclusive'],
+  ['Rhino Coins Hit the Bonus','rhino-coins-hit-the-bonus-ico-mobile.jpg','2 / 5 / 3 / 6','exclusive'],
+];
+
+const BEST = [
+  ['Area Link Dragon Ascension','area-link-dragon-ascension-ico-mobile.jpg','new'],
+  ['Dark Waters III Power Combo','dark-waters-3-power-combo-the-ico-mobile.jpg'],
+  ['Totally Headless','totally-headless-ico-mobile.jpg','new'],
+  ['Area Link Phoenix Firestorm','area-link-phoenix-firestorm-ico-mobile.jpg','hot'],
+  ['Action Boost SpinUP Knights Ascension','action-boost-spinup-knight-s-ascension-ico-mobile.jpg','new'],
+  ['Raging Gods: Olympus 2 Power Combo','raging-gods-olympus-2-power-combo-ico-mobile.jpg','new'],
+  ['Le Digger','le-digger-ico-mobile.jpg'],
+  ['Mining Pots of Gold Express Gold Blitz','mining-pots-of-gold-express-gold-blitz-ico-mobile.jpg'],
+  ['Triple Seven Flames of Craze','triple-seven-flames-of-craze-ico-mobile.jpg'],
+  ["Immortal Romance: Sarah's Secret",'immortal-romance-sarah-s-secret-power-combo-ico-mobile.jpg'],
+  ['Wild Tomb','wild-tomb-ico-mobile.jpg'],
+  ['Lucky Lemons 2 Juiced Up','lucky-lemons-2-juiced-up-ico-mobile.jpg'],
+];
+
+const LIVE = [
+  ['World Cup Roulette','roulette-evo-ico-mobile.jpg','promo'],
+  ['Gates of Olympus Roulette','gates-of-olympus-roulette-ico-mobile.jpg'],
+  ['Crazy Time','crazy-time-animated.svg','promo'],
+  ['Money Time','money-time-ico-mobile.jpg'],
+  ['Roulette Italiana','roulette-italiana-ico-mobile.jpg'],
+  ['Monopoly Big Baller','monopoly-big-baller-ico-mobile.jpg','promo'],
+  ['Sports Roulette','sports-roulette-ico-mobile.jpg','new'],
+  ['Football Studio','football-studio-ico-mobile.jpg','promo'],
+  ['Mega Fire Blaze Roulette Live','mega-fire-blaze-roulette-live-ico-mobile.jpg'],
+  ['Ice Fishing','ice-fishing-ico-mobile.jpg','promo'],
+  ['Admiral Roulette Live','admiral-roulette-2-ico-mobile.jpg','exclusive'],
+  ['Sports Blackjack 1','sports-blackjack-1-ico-mobile.jpg','new'],
+];
+
+function media(file,name){
+  if(!file) return `<div class="ph">${name}</div>`;
+  if(file.endsWith('.svg')) return `<object type="image/svg+xml" data="${S}${file}" aria-label="${name}"></object>`;
+  return `<img loading="lazy" src="${S}${file}" alt="${name}">`;
+}
+function tile(g, area){
+  const badge = g[3] ? `<img class="bd" src="${B}${BADGE[g[3]]}" alt="${g[3]}">` : '';
+  const jp = g[4] ? `<div class="jp">${g[4]}</div>` : '';
+  const st = area ? ` style="grid-area:${g[2]}"` : '';
+  return `<a class="tile" data-aff href="/referral-link" aria-label="${g[0]}"${st}>
+    ${media(g[1],g[0])}${badge}
+    <div class="ov"><b>${g[0]}</b><span class="play">Gioca</span></div>${jp}
+  </a>`;
+}
+
+document.getElementById('nav').innerHTML =
+  NAV.map((n,i)=>`<a class="nav-item ${n[2]==='b'?'nav-bonus':''} ${i===3?'on':''}" data-aff href="/referral-link">
+     <img src="/assets/nav/${n[0]}.svg" alt="">${n[2]==='b'?'<span class="bdg">36</span>':''}<span>${n[1]}</span></a>`).join('')
+  + `<span class="nav-right">` + NAVR.map(n=>`<a class="nav-item" data-aff href="/referral-link"><img src="/assets/nav/${n[0]}.svg" alt=""><span>${n[1]}</span></a>`).join('') + `</span>`;
+
+document.getElementById('m-casino').innerHTML = CASINO.map(g=>tile(g,true)).join('');
+document.getElementById('g-best').innerHTML   = BEST.map(g=>tile(g,false)).join('');
+document.getElementById('g-live').innerHTML   = LIVE.map(g=>tile(g,false)).join('');
+
+// SEO (testo di riferimento, da rielaborare prima della pubblicazione)
+document.getElementById('seo').innerHTML = `
+<h1>Casino Online AdmiralBet: giochi da casinò con soldi veri</h1>
+<p><strong>AdmiralBet</strong> è uno dei casino online più affidabili e completi disponibili in Italia, operante con regolare <strong>concessione ADM n. 16048</strong>. La piattaforma fa parte del gruppo Novomatic e opera tramite Greentube, la divisione digitale del gruppo. Su AdmiralBet si gioca a slot online, roulette, blackjack, baccarat e giochi da casino live, con promozioni esclusive tra cui il bonus senza deposito, e titoli iconici come Book of Ra, Lucky Lady's Charm e Dolphin's Pearl.</p>
+<p>La <strong>licenza ADM</strong> è la garanzia che distingue un casino online sicuro e regolamentato:</p>
+<ul><li>protezione dei dati personali dei giocatori</li><li>regolarità dei pagamenti</li><li>correttezza dei giochi</li><li>rispetto delle norme sul gioco responsabile.</li></ul>
+<p>Il catalogo conta oltre 4.000 titoli: dai classici Novomatic come Book of Ra Deluxe e Sphinx alle hit di Pragmatic Play, Play'n GO, NetEnt, Playtech e IGT, fino a provider come Hacksaw Gaming, Amusnet e Red Tiger.</p>
+<div class="tablewrap"><table>
+<thead><tr><td>Parametro</td><td>Valore</td></tr></thead>
+<tbody>
+<tr><td><strong>Numero di giochi</strong></td><td>4.000+ tra slot, giochi da tavolo, video poker e casino live</td></tr>
+<tr><td><strong>Bonus di Benvenuto</strong></td><td>Bonus Slot del 200% fino a 5.000€ sul primo deposito</td></tr>
+<tr><td><strong>Bonus senza deposito</strong></td><td>2.000€ + 1.000 giri gratis con SPID (300€ + 300 giri con registrazione classica)</td></tr>
+<tr><td><strong>App</strong></td><td>Disponibile per iOS e Android</td></tr>
+<tr><td><strong>Pagamenti</strong></td><td>PayPal, Skrill, Neteller, Paysafecard, carte (VISA/MasterCard/Postepay), bonifico</td></tr>
+<tr><td><strong>Concessione ADM</strong></td><td>16048</td></tr>
+<tr><td><strong>Gioco responsabile</strong></td><td>Limiti di versamento, auto-valutazione, auto-esclusione e supporto dedicato</td></tr>
+</tbody></table></div>
+<h2>Sicurezza, gioco responsabile e tutela dei giocatori</h2>
+<p>AdmiralBet garantisce un ambiente di gioco legale, certificato e trasparente. Le transazioni sono protette con crittografia avanzata e i metodi di pagamento sono tra i più affidabili sul mercato. La piattaforma mette a disposizione limiti di versamento personalizzabili, auto-valutazione del comportamento di gioco e auto-esclusione temporanea o definitiva. La protezione dei minori è una priorità: controlli sull'età in fase di registrazione e collaborazione con software di controllo parentale.</p>
+<h2>Perché giocare su AdmiralBet?</h2>
+<ul>
+<li><strong>Sicurezza e licenza ADM</strong>: concessione n. 16048, gruppo Novomatic/Greentube, certificazioni internazionali.</li>
+<li><strong>Catalogo enorme</strong>: oltre 4.000 titoli tra slot, casino live, scommesse, poker, bingo e lotterie.</li>
+<li><strong>Prelievi veloci</strong>: oltre il 73% dei prelievi elaborato entro 15 minuti.</li>
+<li><strong>Pagamenti sicuri</strong>: PayPal, Skrill, Neteller, Paysafecard, carte e bonifico.</li>
+<li><strong>Bonus e VIP Club</strong>: benvenuto (anche senza deposito con SPID), cashback e programma fedeltà.</li>
+<li><strong>Gioco sotto controllo</strong>: limiti, auto-valutazione e auto-esclusione.</li>
+<li><strong>Ovunque</strong>: desktop e app dedicate iOS/Android, assistenza dalle 8 alle 21, 7/7.</li>
+</ul>
+<h2>I giochi del casino online AdmiralBet</h2>
+<h3>Slot online</h3>
+<p>Slot classiche a 3 rulli, video slot a 5 rulli con bonus, Megaways e slot con jackpot progressivo, oltre ai crash games. Tra le più giocate: Book of Ra Deluxe, Sweet Bonanza, Gates of AdmiralBet e Fowl Play Gold (la "slot gallina").</p>
+<h3>Roulette online</h3>
+<p>European Roulette, Roulette Francese, American Roulette e Lightning Roulette Italia, in versione digitale e live con croupier reali.</p>
+<h3>Blackjack online</h3>
+<p>Blackjack Classic, Lux Blackjack, Blackjack Pro e First Person Blackjack, dal vivo e non.</p>
+<h3>Casino Live</h3>
+<p>Tavoli e game show con croupier in streaming HD 24/7: Crazy Time, Monopoly Live, Sweet Bonanza CandyLand e Crazy Coin Flip.</p>
+<h2>Piattaforma mobile e app</h2>
+<p>AdmiralBet è ottimizzato per dispositivi mobili, con app dedicate per iOS e Android che danno accesso a slot, casino live, scommesse, poker, bingo e lotterie.</p>
+<h2>Metodi di pagamento e velocità dei prelievi</h2>
+<p>PayPal, Paysafecard, carte VISA/MasterCard/PostePay, Skrill, Neteller e bonifico. Oltre il 73% dei prelievi viene elaborato entro 15 minuti dalla richiesta.</p>
+<h2>Promozioni e bonus</h2>
+<h3>Con registrazione SPID</h3>
+<ul><li>1.000 giri gratis su slot come Book of Ra Deluxe, Lucky Lady's Charm, Gates of AdmiralBet;</li><li>2.000€ di bonus senza deposito, distribuiti in 10 tranche da 200€.</li></ul>
+<h3>Con registrazione classica</h3>
+<ul><li>300 giri gratis su Book of Ra Deluxe e Gates of AdmiralBet;</li><li>2 bonus senza deposito fino a 300€ + Bonus Slot fino a 5.000€ sul primo deposito.</li></ul>
+`;
+</script>
+</body>
+</html>
